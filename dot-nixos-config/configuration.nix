@@ -92,7 +92,11 @@
   programs.firefox.enable = true;
 
   # Install steam.
-  programs.steam.enable = true;
+  programs.steam = {
+    enable = true;
+    remotePlay.openFirewall = true;
+    dedicatedServer.openFirewall = true;
+  };
 
   programs.zsh.enable = true;
 
@@ -122,6 +126,7 @@
     zsh-powerlevel10k
     meslo-lgs-nf
     gnupg
+    obsidian
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -155,4 +160,9 @@
 
   system.autoUpgrade.enable = true;
   system.autoUpgrade.allowReboot = true;
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 7d";
+  };
 }
