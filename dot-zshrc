@@ -109,4 +109,6 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias vi="nvim"
 alias fman="compgen -c | fzf | xargs man"
+alias sudo='sudo '
 
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
