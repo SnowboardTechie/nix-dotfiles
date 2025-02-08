@@ -7,7 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+      /etc/nixos/hardware-configuration.nix
     ];
 
   # Bootloader.
@@ -127,6 +127,8 @@
     meslo-lgs-nf
     gnupg
     obsidian
+    discord
+    fzf
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
