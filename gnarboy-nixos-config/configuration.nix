@@ -88,9 +88,6 @@
     ];
   };
 
-  # Install firefox.
-  programs.firefox.enable = true;
-
   # Install steam.
   programs.steam = {
     enable = true;
@@ -129,6 +126,9 @@
     obsidian
     discord
     fzf
+    dino
+    signal-desktop
+    librewolf
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
