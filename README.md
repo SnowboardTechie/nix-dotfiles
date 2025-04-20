@@ -12,4 +12,11 @@ stow . --adopt --dotfiles --target=/etc/nixos
 this will sym link all of the dot-files to your home user directory, replacing dot- with . for files and folders.
 
 # Alt Repos
-This repository's primary location is on a personal ForgeJo with backups on github and gitlab
+This repo is located in 3 locations that sync commits from the primary to backups
+
+### Primary
+  - [git.snowboardtechie.com](https://git.snowboardtechie.com/bryan/nix-dotfiles)
+
+### Backups
+  - [github.com](https://github.com/snowboardtechie/nix-dotfiles)
+  - [gitlab.com](https://gitlab.com/snowboardtechie/nix-dotfiles)
