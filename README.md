@@ -10,3 +10,6 @@ For nixOS config, go into the preferred nixos-config folder and run
 stow . --adopt --dotfiles --target=/etc/nixos
 ```
 this will sym link all of the dot-files to your home user directory, replacing dot- with . for files and folders.
+
+# Alt Repos
+This repository's primary location is on a personal ForgeJo with backups on github and gitlab
