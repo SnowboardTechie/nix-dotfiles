@@ -59,7 +59,7 @@
   services.printing.enable = true;
 
   # Enable sound with pipewire.
-  hardware.pulseaudio.enable = false;
+  services.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -124,14 +124,23 @@
     meslo-lgs-nf
     gnupg
     obsidian
-    discord
+    vscodium
     fzf
     dino
     signal-desktop
     librewolf
+    tor-browser
+    brave
     mumble
     freetube
-    code-cursor
+    xivlauncher
+    blender
+    #GoDot worked b4 but is currently failing to compile
+    #godot
+    krita
+    audacity
+    element-desktop
+    superTuxKart
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
