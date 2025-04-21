@@ -18,5 +18,6 @@ This repo is located in 3 locations that sync commits from the primary to backup
   - [git.snowboardtechie.com](https://git.snowboardtechie.com/bryan/nix-dotfiles)
 
 ### Backups
+  - [codeberg.org](https://codeberg.org/snowboardtechie/nix-dotfiles)
   - [github.com](https://github.com/snowboardtechie/nix-dotfiles)
   - [gitlab.com](https://gitlab.com/snowboardtechie/nix-dotfiles)
