@@ -134,9 +134,6 @@
     mumble
     freetube
     xivlauncher
-    blender
-    #GoDot worked b4 but is currently failing to compile
-    #godot
     krita
     audacity
     element-desktop
